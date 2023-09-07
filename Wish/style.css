@@ -1,0 +1,35 @@
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+   background-image: url(/Wish/ecommerce/bg3.jfif); 
+   background-size: cover;
+}
+#amet{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#jump{
+    margin-top: 140px;
+    margin-left: -50px;
+    height:340px;
+    animation: example 5s linear infinite alternate;
+}
+@keyframes example {
+    0%   { transform: scaleX(0); opacity: 0;}
+    25%  { transform: scaleX(0.4); opacity: 0.3;}
+    50%  { transform: scaleX(0.8); opacity: 0.8;}
+    100% { transform: scaleX(1.0); opacity: 1.0;}
+}
+#words{
+    margin-top: 200px;
+    font-size: 25px;
+}
+#btn{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#music{
+    font-family: 'Times New Roman', Times, serif;
+}
